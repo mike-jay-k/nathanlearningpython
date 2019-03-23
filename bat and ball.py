@@ -1,7 +1,6 @@
 import tkinter
 import time
 from tkinter import messagebox
-
 canvasWidth = 750
 canvasHeight = 500
 window = tkinter.Tk()
