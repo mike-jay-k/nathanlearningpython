@@ -37,8 +37,8 @@ score_turtle.speed(0)
 def outside_window():
     left_wall = t.window_width() / 2
     right_wall = t.window_width() / 2
-    top_wall = t.window_hight() / 2
-    bottom_wall = -t.window_hight() / 2
+    top_wall = t.window_height() / 2
+    bottom_wall = -t.window_height() / 2
     (x, y) =  caterpiller.pos()
     outside = \
             x< left_wall or \
@@ -86,12 +86,12 @@ def start_game():
     display_score(score) 
 
     while True:
-        caterpiller.foward(caterpiller_speed)
+        caterpiller.forward(caterpiller_speed)
         if caterpiller.distance(leaf) < 20:
             place_leaf()
-            caterpiller_length = catterpiller_length + 1
-            caterpiller.shapesize(1, catterpiller_length, 1)
-            caterpiller_speed = catterpiller_speed + 1
+            caterpiller_length = caterpiller_length + 1
+            caterpiller.shapesize(1, caterpiller_length, 1)
+            caterpiller_speed = caterpiller_speed + 1
             score = score + 10
             display_score(score)
         if outside_window():

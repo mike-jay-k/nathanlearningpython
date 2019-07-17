@@ -17,7 +17,7 @@ c.create_oval(-80, -80, 120, 120, fill="yellow", width=0)
 c.pack()
 
 
-color_cycle = cycle(["light blue", "teal", "lime", "light yellow", "light cyan",])
+color_cycle = cycle(["brown","white","gray"])
 egg_width = 45
 egg_height = 55
 egg_score = 10

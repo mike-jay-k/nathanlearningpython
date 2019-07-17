@@ -12,11 +12,12 @@ elif playerChoice == "3":
     print("you can ether...")
     print("1, steal some of the dragons gold")
     print("or 2, try to sneek around the dragon")
-if dragonChoice == "1":
+if DragonChoice == "1":
     print("the dragon wakes up and eats you")
     print("YOU LOST")
-elif dragonChoice == "2":
+elif DragonChoice == "2":
     print("you sneak around the dragon and escape the castle")
+    print("YOU WIN!!!")
 else:
-    print("get out of hear!")
-
+    print("yove waited to long! uh oh,DRAGON!!! the dragon")
+    print("ate you. YOU LOST.")

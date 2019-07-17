@@ -1,8 +1,10 @@
 aliens = 4
-password = "aliens"
+password = "Wingcrest"
 print("Quickly! aliens are invading the planet!")
 print("you need to activate the global defense platformes.")
-print("hope you know the password for earths sake...")
+print("I hope you know the password for earths sake...")
+print("Oh and the password system is messed up by the aliens arrivel so, input the password and press enter and even thouh it says incorrect, just input the correct")
+print("password again and you will be in.")
 print()
 print("---------------------------------------------------")
 print("     WELCOME TO THE GLOBAL DEFENSE NETWORK         ")
@@ -19,7 +21,7 @@ while guess != password:
         break
           
     print() 
-    print("password hint: the things that are attaking us.")
+    print("password hint: the main zelda symbel.")
     print()
     guess = input("Quick enter the password: ")
 if aliens > 7400000000:

@@ -14,5 +14,5 @@ elif user_reply == "no.":
 elif user_reply == "no thank you":
     print ("what do you mean! I asked you a qushtion you should anwcer,yes,no or maybe!")
 else:
-    print("did you sit on the keyboard? P.S. We speak english, just so you know. p.p.s.what laguige is  that?")
+    print("HEY!!!I said anwcer with yes, no or maybe!!! ")
         
