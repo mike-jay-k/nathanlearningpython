@@ -8,6 +8,11 @@ canvas = tkinter.Canvas(window, width=canvasWidth, height=canvasHeight, bg="yell
 canvas.pack()
 bat = canvas.create_rectangle(0, 0, 40, 10, fill="red")
 ball = canvas.create_oval(0, 0, 10, 10, fill="orange")
+print("INSTRUCTIONS:")
+print("press the left arrow key to move left,")
+print("press the right arrow key to move right,")
+print("use those keys to move the rectangle to keep")
+print("the ball from touching the bottom!")
 windowOpen = True
 score = 0
 

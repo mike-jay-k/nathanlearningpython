@@ -1,8 +1,6 @@
 from tkinter import HIDDEN, NORMAL , Tk, Canvas
-
-
-
- 
+    
+                                                                                                        
 root = Tk()
 
 c = Canvas(root, width=400, height=400)
@@ -23,6 +21,12 @@ pupil_right = c.create_oval(240, 145, 250, 155, outline='black', fill='black')
 
 
 mouth_normal = c.create_line(170, 250, 200, 272, 230, 250, smooth=1, width=2, state=NORMAL)
+mouth_happy = c.create_line(170, 250, 200, 282, 230, 250, smooth=1, width=2, state=HIDDEN)
+mouth_sad = c.create_line(170, 250, 200, 282, 230, 250, smooth=1, width=2, state=HIDDEN)
+
+
+cheek_left = c.create_ovol(70, 180, 120, 230, outline="red",
 
 c.pack()
+
 root.mainloop()

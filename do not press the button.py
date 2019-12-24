@@ -11,6 +11,9 @@ def onClick(event):
         button.configure(text="beep.. beep..beep...oh no, you set off the timer for the bomb!")
     elif clickcount == 2:
         button.configure(text="KABOOM!!!!!!!!!!!!!!! ")
+    elif clickcount == 3:
+        button.configure(text="cough... you are so bad!BYE!!!")
+        
     else:
         button.pack_forget()
 button.bind("<ButtonRelease-1>", onClick)
